@@ -1,0 +1,41 @@
+---
+title: "Homework 1"
+---
+
+### Question 1
+
+Supervised learning is when a model is trained using predictors to fit an outcome which is an associated response to those predictors. Unsupervised learning is when a model is trained using only the predictors and without an associated response being part of the data set.
+
+The difference between them is the access to the outcome data that the machine has to learn from. This means there are differences in the types of models used for each method - examples of supervised learning include linear regression and logistic regression while unsupervised learning mainly uses cluster analysis.
+
+### Question 2
+
+A regression model is when the response variable is quantitative - examples include age, height or wage. On the other hand, a classification model is when the response variable takes on values in one of K different classes. This could be a binary outcome (Yes/No), or a finite set of discrete outcomes such as (Red/Yellow/Green)
+
+### Question 3
+
+2 metrics for classification ML problems are: Accuracy (percent correctly predicted), Confusion Matrix.
+
+Accuracy is when a measure of the proportion of correct predictions that the model made when compared to the realized outcome for each unit. It performs best when the class is well balanced. A confusion matrix is a table that is used to describe the performance of a classification model on a set of the test data for which the true values are known. The matrix shows you which outcomes the model specifically doesn't predict correctly
+
+### Question 4
+
+A descriptive model is one in which you choose a model to best visually emphasize a trend in the data.
+
+A predictive model is one where the aim is to predict the outcome with minimum reducible error
+
+An inferential model is to test theories and understand causal relationships. In these models other variables may be included as controls rather than to understand the sepcific predictors impact on the outcome.
+
+### Question 5
+
+Mechanistic models are used when you are fitting the data in the model to a parametric form. Their defining characteristic is the parametric nature. Empirically-driven models are used when modelling a scenario you have observed rather then theorized. They are estimated using Maximum Likelihood Estimation and have no assumptions about the way the predictors affect the response.
+
+Mechanistic models tend to be easier to understand compared to empirically-driven ones. This is because you have a clearer picture of the partial effect of some predictor.
+
+Bias measures how accurate the model fits the data and variance shows the spread of how well the model fits the data. As the empirically driven model is flexible to the data it will have low bias but higher variance. On the other hand, mechanistic models tend to have a lower variance and higher bias. This  is because empirically-driven models are prone to the problem of overfitting the model to the data. Therefore, a factor in the model choice must be  related to whether the reason for choosing the model was wanting an accurate prediction(e.g. weather data) or a lower variation(e.g. insurers).
+
+### Question 6
+
+Question A is a predictive question. It is a direct question aiming to figure out which combination of characteristics reduce the error of predicting the candidate that the voter backs. 
+
+Question B is an inferential question. It aims to test theories and identify the relationship between predictors and outcomes. Therefore, it is a question which is posed primarily to understand the relationship between them. 
